@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 
-        $('ul').css("color", "red");
+        $('ul>li').css("color", "red");
       
 
 });
