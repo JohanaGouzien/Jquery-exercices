@@ -1,12 +1,12 @@
 $(document).ready(function(){
     
 $('#show').click(function(){
-   $('#texte').show(); 
+   $('#text').show(); 
 
 })
 
 $('#hide').click(function(){
-   $('#texte').hide();
+   $('#text').hide();
 
 });
 
