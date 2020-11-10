@@ -1,7 +1,8 @@
-$('#clickMe').click(function(){
+$(document).ready(function(){
+    $('#clickMe').click(function(){
 
-alert('J\'ai réussi! Youpiiiii')
+alert('J\'ai réussi! Youpiiiii');
+
+    });
 
 });
-
-

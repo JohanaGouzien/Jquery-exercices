@@ -1,23 +1,45 @@
 
-$(document).ready(function(){
 
-    $("button").click(function(){
-    $("input").val();
 
-    //Le nombre choisit est 63
 
-    if ( val >63) {
-        alert('plus');
+
+    var randomNumber = Math.floor(Math.random() * 100) +1;
+
+    (function sendData(){
+        var nombre = document.getElementById('nombre').value;
+
+    if ( randomNumber > nombre) {
+        alert('c\'est plus');
     }
-    if (val<63) {
-        alert ('moins');
-    }
-
-    if (val=63) {
-        alert ('correcte');
+    if (randomNumber < nombre) {
+        alert ('c\'est moins');
     }
 
-    });
+    if (randomNumber = nombre) {
+        alert ('c\'est correct');
+    }   
+});
+
+/*$('#paris').submit(function(event){
+    paris = $('#nombre').val();
+
+    if (paris == prix) {
+        $('.reponse').html('C\'est correct');
+    }
+
+    else if (paris<prix){
+        $('.reponse').html('C\'est plus');
+    }
+
+    else if (paris>prix){
+        $('.reponse').html('C\'est moins');
+    }
+
+    //$('#nombre').val('');
+
+    // event.preventDefault();
 
 
 });
+
+}); 
