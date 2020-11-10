@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 //Pour appeler un nombre aléatoire
 var randomNumber = Math.floor(Math.random() * 100) +1;
 
@@ -19,7 +21,7 @@ var count = 0; $("#click").click(function() {
     }
     
     if ( nombre == randomNumber ) {
-        alert('c\'est correct');
-        alert("Vous avez essayé " +count+ " fois");
+        alert('c\'est correct !' + '/n' + ' Vous avez essayé ' +count+ " fois");
     }
+});
 });
